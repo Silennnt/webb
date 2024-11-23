@@ -56,5 +56,6 @@ function init() {
 	loop();
 }
 
+window.onload = init;
 window.addEventListener("resize", resizeCanvas);
 init();
