@@ -204,8 +204,8 @@ hr {
 	margin-right: 5%;
 	margin-bottom: 0;
 	height: 4px;
-	color: var(--text-light);
-	background-color: var(--text-light);
+	color: #ffffff;
+	background-color: #ffffff;
 }
 .social {
 	margin-bottom: 2.5rem;
