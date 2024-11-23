@@ -11,8 +11,8 @@ function resizeCanvas() {
 
 function createSnowflake() {
 	return {
-		x: Math.random() * width * 0.5,
-		y: Math.random() * height * 0.5,
+		x: Math.random() * width ,
+		y: Math.random() * height,
 		radius: Math.random() * 4 + 2,
 		speed: Math.random() * 1 + 0.5,
 		opacity: Math.random(),
@@ -56,6 +56,6 @@ function init() {
 	loop();
 }
 
-window.onload = init;
+
 window.addEventListener("resize", resizeCanvas);
 init();
