@@ -4,6 +4,8 @@ const ctx = canvas.getContext("2d");
 let width, height;
 const snowflakes = [];
 
+window.onload = init;
+
 function resizeCanvas() {
 	width = canvas.width = window.innerWidth;
 	height = canvas.height = window.innerHeight;
@@ -58,4 +60,4 @@ function init() {
 
 
 window.addEventListener("resize", resizeCanvas);
-init();
+
